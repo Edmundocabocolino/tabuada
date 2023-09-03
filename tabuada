@@ -1,0 +1,15 @@
+contador = 0
+while True:
+    tabuada = int(input('Quer ver a tabuada de qual valor: '))
+    print('_'*30)
+    if tabuada < 0:
+        break
+    for contador in range(0, 11):
+        resultado = tabuada * contador
+        print(f'{tabuada} * {contador} = {resultado}')
+    print('_'*30)
+print('programa tabuada encerrado, volte sempre!')
+
+
+
+
